@@ -141,16 +141,16 @@ header {
 
 /* Responsive styles for smaller screens */
 @media only screen and (max-width: 768px) {
+    .title h1 {
+      padding-top: 5vh;
+      font-size: 36pt;
+    }  
+
     .row {
         max-width: 90%;
     }
-    .intro-text-box h1 {
-        font-size: 36pt; /* Adjust the font size for smaller screens */
-    }
 
-    .intro-text-box p1,
-    .intro-text-box p2,
-    .intro-text-box p3 {
+    .main p1 {
         font-size: 14pt; /* Adjust the font size for smaller screens */
     }
 
