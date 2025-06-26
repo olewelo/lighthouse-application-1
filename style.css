@@ -38,7 +38,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     flex-wrap: wrap;
     max-width: 90%;
  }
@@ -46,11 +46,18 @@ header {
  .title h1 {
     font-size: 50pt;
     padding-top: 20vh;
-    padding-bottom: 15pt;
+    padding-bottom: 0pt;
     margin-bottom: 0px;
  }
 
  .title h2 {
+    font-size: 25pt;
+    color:#a4a422;
+    padding-bottom: 50pt;
+    font-style: bold;
+ }
+
+ .title h3 {
     font-size: 16pt;
     padding-bottom: 15pt;
     color:#000000;
@@ -159,4 +166,45 @@ header {
         padding-top: 20pt;
         padding-bottom: 20pt;
     }
+}
+
+
+/* Footnote */
+#footnotes {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    margin: 2em 0 1em 0;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#footnotes a {
+    color: #e0e016;
+    text-decoration: none;
+    font-size: 1em;
+}
+#footnotes a:hover {
+    text-decoration: underline;
+}
+
+/* Footnote number in text: regular size, yellow, no box */
+sup, sup a {
+    background: none !important;
+    color: #e0e016 !important;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-left: -1px;   /* Pulls the symbol closer to the word */
+    margin-right: -0.5px;
+    font-size: inherit;  /* Regular size */
+    vertical-align: text-top; /* Less extreme than super */
+    line-height: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+sup a:hover {
+    text-decoration: underline;
 }
