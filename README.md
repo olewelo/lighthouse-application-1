@@ -1,1 +1,1 @@
-# Lighthouse Reports Application
+# Lighthouse Reports Application – Project 1
