@@ -34,41 +34,41 @@ header {
 
 .title {
     display: block;
-    color:#e0e016;
+    color: #e0e016;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin: 0 auto;
     padding-bottom: 80px;
     flex-wrap: wrap;
     max-width: 90%;
- }
+}
 
- .title h1 {
+.title h1 {
     font-size: 50pt;
     padding-top: 20vh;
     padding-bottom: 0pt;
     margin-bottom: 0px;
- }
+}
 
- .title h2 {
+.title h2 {
     font-size: 25pt;
-    color:#a4a422;
+    color: #a4a422;
     padding-bottom: 50pt;
     font-style: bold;
- }
+}
 
- .title h3 {
+.title h3 {
     font-size: 16pt;
     padding-bottom: 15pt;
-    color:#000000;
+    color: #000000;
     font-style: bold;
- }
+}
 
- .title p1 {
+.title p1 {
    font-size: 16pt;
    font-style: normal;
-   color: #000000
- }
+   color: #000000;
+}
 
  .row {
     display: block;
@@ -150,9 +150,14 @@ header {
 @media only screen and (max-width: 768px) {
     .title h1 {
       padding-top: 5vh;
-      font-size: 36pt;
+      font-size: 32pt;
     }  
-
+    .title h2 {
+        font-size: 18pt;
+    }
+    .title h3 {
+        font-size: 12pt;
+    }
     .row {
         max-width: 90%;
     }
